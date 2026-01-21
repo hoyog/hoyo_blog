@@ -39,7 +39,7 @@ jobs:
         run: |-
           npm run docs:build
           touch src/.vuepress/dist/.nojekyll
-          ls -la src/.vuepress/dist
+          ls -la src/.vuepress/dist || echo "Dist directory not found!"
 
       - name: 部署文档
         uses: JamesIves/github-pages-deploy-action@v4
@@ -48,4 +48,4 @@ jobs:
         with:
           # 部署文档
           branch: blog_pages
-          folder: src\.vuepress\dist
+          folder: src/.vuepress/dist
