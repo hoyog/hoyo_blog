@@ -7,13 +7,13 @@ export default hopeTheme({
   hostname: "https://mister-hope.github.io",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mister-hope.com",
+    name: "Hoyo",
+    url: "https://github.com/hoyo",
   },
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "/logo.png",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "hoyo/hoyo_blog",
 
   docsDir: "src",
 
@@ -65,12 +65,13 @@ export default hopeTheme({
       // sidebar
       sidebar: enSidebar,
 
-      footer: "Default footer",
+      footer: "© 2025 Hoyo. All rights reserved.",
 
       displayFooter: true,
 
       blog: {
-        description: "A FrontEnd programmer",
+        name: "Hoyo's Blog",
+        description: "个人技术博客",
         intro: "/intro.html",
       },
 
@@ -89,12 +90,13 @@ export default hopeTheme({
       // sidebar
       sidebar: zhSidebar,
 
-      footer: "默认页脚",
+      footer: "© 2025 Hoyo. 保留所有权利。",
 
       displayFooter: true,
 
       blog: {
-        description: "一个前端开发者",
+        name: "Hoyo的博客",
+        description: "个人技术博客 - 记录学习与成长",
         intro: "/zh/intro.html",
       },
 

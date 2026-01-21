@@ -3,46 +3,51 @@ home: true
 layout: Blog
 icon: house
 title: 博客主页
-heroImage: https://theme-hope-assets.vuejs.press/logo.svg
-heroText: 你博客的名称
+heroImage: /logo.png
+heroText: Hoyo的博客
 heroFullScreen: true
-tagline: 你可以在这里放置你的口号与标语
+tagline: 记录学习 · 分享生活 · 持续成长
 projects:
   - icon: folder-open
-    name: 项目名称
-    desc: 项目详细描述
-    link: https://你的项目链接
+    name: GitHub项目
+    desc: 查看我的开源项目
+    link: https://github.com/hoyo
 
   - icon: link
-    name: 链接名称
-    desc: 链接详细描述
-    link: https://链接地址
+    name: 个人主页
+    desc: 了解更多信息
+    link: https://github.com/hoyo
 
   - icon: book
-    name: 书籍名称
-    desc: 书籍详细描述
-    link: https://你的书籍链接
+    name: 技术文档
+    desc: 常用技术文档与笔记
+    link: /zh/
 
   - icon: newspaper
-    name: 文章名称
-    desc: 文章详细描述
-    link: https://你的文章链接
+    name: 最新文章
+    desc: 查看最新发布的博客文章
+    link: /zh/posts/
 
   - icon: user-group
-    name: 伙伴名称
-    desc: 伙伴详细介绍
-    link: https://你的伙伴链接
+    name: 友情链接
+    desc: 优秀的技术博客推荐
+    link: https://github.com/hoyo
 
-  - icon: https://theme-hope-assets.vuejs.press/logo.svg
-    name: 自定义项目
-    desc: 自定义详细介绍
-    link: https://你的自定义链接
-
-footer: 自定义你的页脚文字
+footer: 用心记录，持续学习
 ---
 
-这是一个博客主页的案例。
+欢迎来到我的博客！
 
-要使用此布局，你应该在页面前端设置 `layout: Blog` 和 `home: true`。
+这里是我记录学习、分享技术、思考生活的空间。
 
-相关配置文档请见 [博客主页](https://theme-hope.vuejs.press/zh/guide/blog/home.html)。
+## 关于博客
+
+本博客基于 VuePress 和 vuepress-theme-hope 主题构建,专注于分享技术心得、学习笔记和生活感悟。
+
+## 内容分类
+
+- **技术文章**: 前端开发、后端技术、编程语言
+- **学习笔记**: 阅读记录、课程笔记、实践总结
+- **生活感悟**: 日常思考、个人成长、生活随笔
+
+希望这里的内容对你有所帮助!
