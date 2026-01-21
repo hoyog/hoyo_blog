@@ -38,7 +38,8 @@ jobs:
           NODE_OPTIONS: --max_old_space_size=8192
         run: |-
           npm run docs:build
-          > src\.vuepress\dist\.nojekyll
+          touch src/.vuepress/dist/.nojekyll
+          ls -la src/.vuepress/dist
 
       - name: 部署文档
         uses: JamesIves/github-pages-deploy-action@v4
